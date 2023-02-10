@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] });
 //const config = require("./config.json"); // For local Testing only
 const config = process.env; // for heroku usage
-const port = process.env.PORT || 3000;
 
 // hold jsons
 let leaderboard;
